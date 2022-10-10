@@ -1,0 +1,51 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: -webkit-grab; 
+    cursor: grab;
+}
+
+.slider img {
+    margin-bottom: -30px;
+    z-index: 10;
+    width: 70px;
+    pointer-events: none;
+}
+
+.box-profile {
+    background-color: hsl(0deg 0% 98%);
+    padding: 70px 30px 30px 30px;
+    width: 530px;
+}
+
+.box-profile h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.box-profile p {
+    font-size: 16px;
+    color: hsl(227deg 12% 61%);
+}
+
+.inner-carousel {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+
+.carousel {
+    
+}
+
+.slider-section {
+
+    padding-top: 50px;
+}
+
+.item-carousel {
+    cursor: grab;
+}
